@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    border-bottom: 2px solid black;
+    background-color: black;
+    color: greenyellow;
+    padding-top: 0px;
+    padding-right:15px;
+    padding-left: 15px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    animation: blink 0.5s  0s infinite  ;
+}
+.brand{
+    display: inline-block;
+}
+ul{
+    float: right;
+    padding: 0;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    z-index: 1;
+}
+.fa-bars{
+    position: relative;
+    right: -200px;
+    font-size: 30px;
+    color: transparent;
+    top: 20px;
+    z-index: 1;
+    border-radius: 25px;
+    float: right;
+}
+@media (max-width: 400px){
+    ul li{
+        color: transparent;
+        font-size: 5px;
+    }
+    .fa-bars{
+        color: greenyellow;
+        right: -90px;
+    }
+    @keyframes blink{
+        0%{color: greenyellow;}
+        50%{color: transparent;}
+        100%{color: greenyellow;}
+    }
+}

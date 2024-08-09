@@ -1,0 +1,95 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    position: fixed;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: blue;
+    text-align: center;
+    position: relative;
+    animation: box1 3s   infinite;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: chocolate;
+    text-align: center;
+    position: relative;
+    left: 198px;
+    animation: box2 3s   infinite;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: cornflowerblue;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: -208px;
+    animation: box3 3s   infinite;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: crimson;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    top: 100px;
+    animation: box4 3s   infinite;
+}
+@keyframes box1 {
+    0% {
+        left: 0;
+        top: 0px;
+    }
+    50% {
+        left: 300px;
+        top: 200px;
+    }
+    100% {
+        left: 0;
+        top: 0px;
+    }
+}
+@keyframes box2 {
+    0% {
+        left: 198px;
+        top: 0px;
+    }
+    50% {
+        left: -104px;
+        top: 200px;
+    }
+    100% {
+        left: 200px;
+        top: 0px;
+    }
+}
+@keyframes box3 {
+    from {
+        top: 200px;
+        left: -208px;
+    }
+    to {
+        left: 92px;
+        top: 0px;
+    }
+}
+@keyframes box4 {
+    from {
+        left: 300px;
+    top: 100px;
+    }
+    to {
+        left: 0px;
+        top: -100px;
+    }
+}

@@ -1,0 +1,36 @@
+.container{
+    width: 800px;
+    height: 700px;
+    background-color: green;
+    position:absolute;
+    top: 200px;
+    left: 300px;
+}
+.box1{width: 200px;
+height: 200px;
+background-color: hotpink;
+position: relative;
+top: 120px;
+left: 180px;}
+
+.box2{width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    top: 210px;
+    left: 1px;}
+
+    .box3{width: 200px;
+        height: 200px;
+        background-color: aqua;
+        position: relative;
+        top: -210px;
+        left: 210px;}
+
+        .box4{width: 200px;
+            height: 200px;
+            background-color: orangered;
+            position: relative;
+            top: 210px;
+            left: 1px;}
+                        

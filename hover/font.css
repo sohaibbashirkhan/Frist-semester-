@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ole&display=swap');
+#fond{font-family: 'Ole', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+#word:hover{
+    color: brown;
+    background-color: chartreuse;
+    font-family: 'Love Light', cursive;
+}
+

@@ -1,0 +1,97 @@
+<?php
+include_once("conn.php");
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+
+<h1  style = "text-align : center;">Welcome To Our  Ad Child Page</h1>
+
+
+
+<!--  =========================== Add Teachers Form ============================== -->
+
+<form action ="#" method="POST" enctype="multipart/form-data" style = "text-align : center;  width: 400px; margin: 0 auto;"> 
+  <div class="mb-3">
+    <label for="" class="form-label">ChildName</label>
+    <input type="text"  name= "ChildName" class="form-control"  aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Age</label>
+    <input type="text" name="Age" class="form-control" >
+  </div>
+
+  <div class="mb-3">
+    <label for="" class="form-label">Vacination</label>
+    <input type="text" name="Vacination" class="form-control" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="" class="form-label">Gender</label>
+    <input type="text" name="Gender" class="form-control" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="" class="form-label">Weight</label>
+    <input type="text" name="Weight" class="form-control" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="" class="form-label">Status</label>
+    <input type="text" name="Status" class="form-control" aria-describedby="emailHelp">
+  </div>
+
+  
+  <button type="submit" class="btn btn-success" name="submit">Submit</button>
+</form>
+
+
+
+
+</body>
+</html>
+
+<?php
+if(isset($_POST["submit"])){
+    // error_reporting(0);
+    $ChildName = $_POST['ChildName'];
+    $Age = $_POST['Age'];
+    $Vacination = $_POST['Vacination'];
+    $Gender = $_POST['Gender'];
+    $Weight = $_POST['Weight'];
+    $Status = $_POST['Status'];
+    
+   
+    
+    
+
+
+    $conn = mysqli_connect("localhost", "root", "", "medilab");         //hostname username password databasename
+    if (!$conn) {
+        echo "connection refuse";
+    }
+
+    // $query = "insert into teachers values (null,'$Name',$Expertise,'$Experience','$Picture')";
+    $query = "INSERT INTO `child`(`ID`, `Child name`, `Age`, `Vacination`, `Gender`, `Weight`, `Status`) VALUES ('null','$ChildName','$Age','$Vacination','$Gender',' $Weight','$Status')";
+    $q = mysqli_query($conn, $query);
+    if (!$q) {
+        echo "query not exectired";
+    } else {
+        echo "query sucess";
+        
+    }
+    header('Location:Child_details.php');
+  }
+?>

@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+}
+.container{
+    background-color: cyan;
+    row-gap: 10px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: row;
+    height: 120%px;
+}
+label{
+    display: block;
+}
+input{
+    width: 80%;
+    height: 50px;
+    margin: 10px;
+}
+textarea{
+    width: 80%;
+    margin: 10px;
+
+}
+
+.flex1{
+    width: 50%;
+    height: 130%;
+    margin: 1px;
+    
+}
+.flex2{
+    width: 80%;
+    height: 125%;
+    margin: 1px;
+  
+}
+.flex2 img{
+    width: 100%;
+    height: 600px;
+}
+.title{
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+}
+.box{
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+}
+.msg{
+
+}
+.btn{
+    background-color: orchid;
+width: 80px;
+height: 40px;
+position: relative;
+animation-name: back;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+
+border-radius: 10px;
+text-align: center;
+}
+@media(max-width:800px){
+    .container{
+        flex-direction: column;
+    }
+    .flex1{
+        width: 100%;
+       
+    }
+    .flex2{
+        width: 100%;
+    }
+    @keyframes back{
+        0%{top: 0px;}
+        50%{top: 50px;left: 20px;}
+        100%{top: 0px;left: 20px;}
+    
+    }
+    
+}

@@ -1,0 +1,21 @@
+.container{
+    background-color: rgb(101, 5, 131);
+    display: inline-flex;
+    padding: 10px;
+    column-gap: 25px;
+    row-gap: 20px;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.items{
+    max-width: 400px;
+    background-color: #f1750f;
+    height: 350px;
+    padding: 5px;
+}
+.image{
+    width:400px;
+}
+.fa-star{
+    color: gold;
+}

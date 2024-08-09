@@ -1,0 +1,57 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/2e/0d/2f/2e0d2fd333bcb3589be5e438cfccce3b.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+}
+.show{
+
+    width: 400px;
+    height: 500px;
+   margin: 0 auto;
+   border-radius: 25px;
+   padding-top: 10px;
+   border: 2px solid white;
+   
+}
+.newshow{
+
+    width: 400px;
+    height: 500px;
+   margin: 0 auto;
+   border-radius: 25px;
+   padding-top: 10px;
+   border: 2px solid white;
+   color: black;
+   display: block;
+}
+table{
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 25px;
+    color: black;
+}
+input{
+    width: 350px;
+    height: 25px;
+    margin: 10px;
+}
+
+.hide{
+    display: none;
+}
+button{
+    background-color: greenyellow;
+    width: 80px;
+    height: 40px;
+    color: red;
+    position: relative;
+
+    top: 20px;
+    border-radius: 10px;
+}
+h1{
+    color: aqua;
+    background-color: gold;
+}

@@ -1,0 +1,21 @@
+<?php
+$conn = mysqli_connect("localhost","root","","medilab");
+
+
+echo  $ID = $_GET["ID"];
+
+  //"DELETE FROM `al_child_details` WHERE 
+  $query = "DELETE FROM `child` WHERE `ID` = $ID";
+
+ $q = mysqli_query($conn,$query);
+
+
+
+
+
+?>
+
+<script>
+window.location.assign("Child_details.php");
+</script>
+

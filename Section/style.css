@@ -1,0 +1,231 @@
+.navbar{
+   background: linear-gradient(#c9caa9,#7ab6be);
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    
+}
+.brand{
+    display: inline-block;
+}
+.logo{
+    display: inline-block;
+width: 100px;
+height: 50px;
+position: relative;
+left: 10px;
+top: -10px;
+
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    list-style: none;
+}
+.icon{
+    display: none;
+   float: right;
+    font-size: 30px;
+    position: relative;
+}
+@media(max-width:356px){
+
+.sidebarafter{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    margin: 0;
+    }
+    .sidebarliafter{
+        display: block !important;
+    text-align: center;
+    border-bottom: 1px solid black;
+    
+    }
+   ul{
+       display: none;
+   }
+ .icon{
+        display: block;
+    }
+}
+.fs-1{
+    background: linear-gradient(#b5caa9,#b9d9dd);
+    position: relative;
+    top: 50px;
+}
+.profile{
+
+  height: 350px;
+position: relative;
+top: 50px;   
+  
+}
+.one{
+    position: relative;
+    top: 50px;
+}
+.two{
+    position: relative;
+    top: 50px;
+}
+.linked{
+    font-size: xx-large;
+}
+.insta{
+    font-size: xx-large;
+}
+
+.Yt{
+    font-size: xx-large;
+}
+
+.facebook{
+    font-size: xx-large;
+}
+#About{
+    position: relative;
+    top: -40px;
+}
+.One{
+    position: relative;
+    top: 60px;
+    left: 10px;
+    width: 300px;
+    height: 320px;
+}
+.Two{
+    
+        position: relative;
+        top: 60px;
+        left: 10px;
+        width: 300px;
+        height: 320px;
+    
+}
+.Three{
+    position: relative;
+    top: 60px;
+    left: 10px;
+    width: 300px;
+    height: 320px;
+
+}
+.Four{
+    position: relative;
+    top: 80px;
+    left: 10px;
+    width: 300px;
+    height: 320px;
+
+}
+.Five{
+    position: relative;
+    top: 80px;
+    left: 10px;
+    width: 300px;
+    height: 320px;
+
+}
+.Six{
+    position: relative;
+    top: 80px;
+    left: 10px;
+    width: 300px;
+    height: 320px;
+
+}
+.Seven{
+    position: relative;
+    top: 100px;
+    left: 10px;
+    width: 300px;
+    height: 320px;
+
+}
+.Eight{
+    position: relative;
+    top: 100px;
+    left: 10px;
+    width: 300px;
+    height: 320px;
+
+}
+.Nine{
+    position: relative;
+    top: 100px;
+    left: 10px;
+    width: 300px;
+    height: 320px;
+
+}
+#Contact{
+    position: relative;
+    top: 60px;
+    
+    
+}
+.fs-2{
+position: relative;
+ top: 50px;
+}
+.form-control{
+    border: 3px solid black;
+}
+.Q{
+    position: relative;
+    left: 550px;
+    top: -350px;
+}
+button{
+    background-color: rgb(47, 255, 186);
+    color: white ;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+.b{
+    position: relative;
+    left: 580px;
+    top: -380px;
+    font-size: x-large;
+
+}
+.fa-envelope{
+    position: relative;
+left: -250px;
+top: 35px;
+font-size: larger;
+}
+.T{
+    position: relative;
+    left: 80px;
+    top: 70px;
+    color: brown;
+}
+.R{
+    
+        position: relative;
+        left: 80px;
+        top: 80px;
+        color: blueviolet;
+    
+}
+.J{
+    position: relative;
+        left: 80px;
+        top: 100px;
+        color: rgb(43, 226, 150);
+}
+h1{
+    display: inline-block;
+position: relative;
+top: -100px;
+}
+a{
+    list-style: none;
+    color: black;
+}

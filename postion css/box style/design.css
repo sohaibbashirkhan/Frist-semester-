@@ -1,0 +1,43 @@
+.container{
+    width: 600px;
+    height: 500px;
+    border: 2px solid red;
+    position: fixed ;
+    left: 400px;
+    top: 150px;
+  bottom: 300px;
+   
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color:peru;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    right: 50px;
+    
+
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    text-align: center;
+  
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color:olive;
+    text-align: center;
+ 
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color:aqua;
+    text-align: center;
+ 
+}

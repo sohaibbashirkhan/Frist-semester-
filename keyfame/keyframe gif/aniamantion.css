@@ -1,0 +1,96 @@
+.container{
+    width: 600px;
+    height: 900px;
+    background-color: chartreuse;
+    
+ 
+
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    display: inline-block;
+    animation-duration: 5s;
+    position: relative;
+    animation-name: boxone;
+    animation-iteration-count: infinite;
+  
+}
+@keyframes boxone{
+    from{
+        top: 0px;left: 0px;
+    }
+    to{top: 108px;
+        left: 108px;
+
+    }
+
+}
+.box2{width: 100px;
+    height: 100px;
+    background-color: cyan;
+    display: inline-block;
+    animation-name: boxtwo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 200px;
+    left: 200px;
+
+}
+
+@keyframes boxtwo{
+    from{
+        top: 0px;left: 0px;
+    }
+    to{
+        top: 110px;left: -103px;
+    }
+
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    display: inline-block;
+    animation-name: boxthree;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+    position: relative;
+left: -208px;
+top: 108px;
+
+}
+
+@keyframes boxthree{
+    from{
+        top: 108px;left: -208px;
+    }
+    to{left: -100px;top: -1px;
+
+    }
+
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    display: inline-block;
+    animation-name: boxfour;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: -208px;
+    top: 108px;
+   
+}
+@keyframes boxfour{
+    from{
+left: -208px;top: 108px;
+    }
+    to{left: -310px;top: -3px;
+     
+    }
+
+}

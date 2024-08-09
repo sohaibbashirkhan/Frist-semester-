@@ -1,0 +1,22 @@
+<?php
+$conn = mysqli_connect("localhost","root","","medilab");
+ $ID = $_GET['ID'];
+ $ChildName = $_POST['ChildName'];
+ $Age = $_POST['Age'];
+ $Vacination = $_POST['Vacination'];
+ $Gender = $_POST['Gender'];
+ $Weight = $_POST['Weight'];
+ $Status = $_POST['Status'];
+   
+
+    $query = " UPDATE `child` SET `Child name`=' $ChildName',`Age`='$Age',`Vacination`='$Vacination',`Gender`='$Gender',`Weight`='$Weight',`Status`='$Status' WHERE `ID` = $ID";
+
+
+$result = mysqli_query($conn,$query);
+
+?>
+
+<script>
+window.location.assign("Child_details.php");
+</script>
+
